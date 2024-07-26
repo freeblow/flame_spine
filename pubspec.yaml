@@ -19,7 +19,11 @@ dependencies:
   flame: ^1.18.0
   flutter:
     sdk: flutter
-  spine_flutter: ^4.2.18
+#  spine_flutter: ^4.2.18
+  spine_flutter:
+    git:
+      url: https://github.com/freeblow/spine_flutter.git
+      ref: master
 
 dev_dependencies:
   flame_lint: ^1.2.0
